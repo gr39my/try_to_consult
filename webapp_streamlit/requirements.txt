@@ -121,7 +121,7 @@ traitlets==5.1.1
 tzdata==2022.1
 tzlocal==4.2
 urllib3==1.26.7
-uvicorn==0.13.4
+#uvicorn==0.13.4
 validators==0.19.0
 virtualenv==20.8.1
 wcwidth==0.2.5
