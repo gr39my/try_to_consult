@@ -132,4 +132,4 @@ WTForms==2.3.3
 WTForms-SQLAlchemy==0.2
 xarray==0.18.2
 xlrd==2.0.1
-zipp==3.8.0
+# zipp==3.8.0
