@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>BMI計算くん</title>
+</head>
+<body>
+    <form method="post">
+        {{ form.hidden_tag() }}
+        {{ form.height.label }} {{ form.height(size=10) }}<br>
+        {{ form.weight.label }} {{ form.weight(size=10) }}<br>
+        {{ form.submit() }}
+    </form>
+    {% if bmi != None %}
+        <p>BMIは {{ "%.2f"|format(bmi) }} です</p>
+    {% endif %}
+</body>
+</html>
